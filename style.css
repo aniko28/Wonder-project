@@ -71,8 +71,9 @@ li{
     font-weight: 400;
 }
 
-.wrapper {
-    /* Ezt töltsd ki, hogy jó legyen */
+.wrapper{
+    margin: 0 auto;
+    width: 1140px;
 }
 
 .navbar {
@@ -84,6 +85,8 @@ li{
     background: url("-text.png")no-repeat;
     background-position: top;
     height: 419px;
+    padding-top: 100px;
+    text-align: center;
 }
 .header1 {
     background-color: rgba(255,255,255,0.9);
@@ -93,21 +96,53 @@ li{
 }
 .header h1{
     padding: 7px 0;
+    color: rgba(57, 57, 57, 0.97)
 }
 .header2{
     background-color: rgba(255,255,255,0.9);
     height: 90px;
     font-size: 77px;
+    color: rgba(55, 55, 55, 0.9);
 }
-.header h2 {
-}
-
 hr{
     border-top: 1px solid #eee;
     width: 1140px;
     margin: 100px auto;
 }
 .text{
-    height: 70px;
+    height: 110px;
+}
+img{
+    float: right;
+    border-radius: 50%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
 
+.future, .future2 h2{
+    color: black;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 400;
+}
+.text-muted {
+    color:  #777;
+}
+p{
+    font-size: 21px;
+    color: #333;
+    line-height: 38px;
+    height: 340px;
+}
+
+.future2 img{
+    float: left;
+    margin:0 40px 0 0;
+}
+.copy{
+    font-size: 12px;
+    width: 1140px;
+    margin: -56px auto;
 }
