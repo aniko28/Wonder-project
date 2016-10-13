@@ -67,8 +67,12 @@ li{
     float: left;
     font-size: 19px;
     width: 180px;
-    margin: 14px 0 0 91px;
+    margin: 14px 0 0 0;
     font-weight: 400;
+}
+
+.wrapper {
+    /* Ezt töltsd ki, hogy jó legyen */
 }
 
 .navbar {
@@ -83,28 +87,19 @@ li{
 }
 .header1 {
     background-color: rgba(255,255,255,0.9);
-    width: 1140px;
     height: 150px;
-    margin: 0 auto;
     font-size: 130px;
+    margin-bottom: 10px;
 }
-.header0{
-   padding: 70px 0 0 0;
-}
-h1{
-    margin: 0 20px;
+.header h1{
     padding: 7px 0;
 }
 .header2{
     background-color: rgba(255,255,255,0.9);
-    width: 1140px;
     height: 90px;
-    margin: 10px auto;
     font-size: 77px;
 }
-h2 {
-    padding: 7px 97px;
-    margin: 17px;
+.header h2 {
 }
 
 hr{
